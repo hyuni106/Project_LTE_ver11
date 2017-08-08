@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/join_main_2"/>
+
+    <EditText
+        android:id="@+id/edit_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:hint="이메일" />
+
+
+
+        <TextView
+            android:id="@+id/txt_Checkemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btn_EmailCheck"
+            android:layout_width="95dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="23dp"
+            android:background="@drawable/selector_overlap_click"/>
+
+
+    <EditText
+        android:id="@+id/edit_PW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="패스워드" />
+
+    <EditText
+        android:id="@+id/edit_RePW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="패스워드 재확인" />
+
+
+    <EditText
+        android:id="@+id/edit_Nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="닉네임 ( 영문 8글자, 한글 4글자 이하)"
+        android:maxLength="8" />
+
+
+
+        <TextView
+            android:id="@+id/txt_Checknick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/btn_NickCheck"
+            android:layout_width="95dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="23dp"
+            android:background="@drawable/selector_overlap_click"/>
+
+
+
+    <Button
+        android:id="@+id/btn_Join"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_join" />
+</LinearLayout>

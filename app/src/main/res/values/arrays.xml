@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array_expandable_level_one">
+        <item>가나</item>
+        <item>가봉</item>
+        <item>가이아나</item>
+        <item>감비아</item>
+        <item>과테말라</item>
+        <item>그레나다</item>
+        <item>그리스</item>
+        <item>기니</item>
+        <item>기니비사우</item>
+        <item>나미비아</item>
+        <item>나우루</item>
+        <item>나이지리아</item>
+        <item>남아프리카공화국</item>
+        <item>네덜란드</item>
+        <item>네팔</item>
+        <item>노르웨이</item>
+        <item>뉴질랜드</item>
+        <item>니제르</item>
+        <item>니카라과</item>
+        <item>대만</item>
+        <item>덴마크</item>
+        <item>도미니카공화국</item>
+        <item>도미니카연방</item>
+        <item>독일</item>
+        <item>동티모르</item>
+        <item>라오스</item>
+        <item>라이베리아</item>
+        <item>라트비아</item>
+        <item>러시아</item>
+        <item>레바논</item>
+        <item>레소토</item>
+        <item>루마니아</item>
+        <item>룩셈부르크</item>
+        <item>르완다</item>
+        <item>리비아</item>
+        <item>리투아니아</item>
+        <item>리히텐슈타인</item>
+        <item>마다가스카르</item>
+        <item>마샬군도</item>
+        <item>마이크로네시아</item>
+        <item>마케도니아</item>
+        <item>말라위</item>
+        <item>말레이시아</item>
+        <item>말리</item>
+        <item>멕시코</item>
+        <item>모나코</item>
+        <item>모로코</item>
+        <item>모리셔스</item>
+        <item>모리타니</item>
+        <item>모잠비크</item>
+        <item>몬테네그로</item>
+        <item>몰도바</item>
+        <item>몰타</item>
+        <item>몽골</item>
+        <item>미국</item>
+        <item>미얀마연방공화국</item>
+        <item>바레인</item>
+        <item>바베이도스</item>
+        <item>바하마</item>
+        <item>방글라데시</item>
+        <item>베냉</item>
+        <item>베네수엘라</item>
+        <item>베트남</item>
+        <item>벨기에</item>
+        <item>벨라루스</item>
+        <item>벨리즈</item>
+        <item>보스니아-헤르체고비나</item>
+        <item>보츠와나</item>
+        <item>볼리비아</item>
+        <item>부룬디</item>
+        <item>부르키나파소</item>
+        <item>부탄</item>
+        <item>불가리아</item>
+        <item>브라질</item>
+        <item>브루나이</item>
+        <item>사모아</item>
+        <item>사우디아라비아</item>
+        <item>산마리노</item>
+        <item>상투메프린시페</item>
+        <item>세네갈</item>
+        <item>세르비아</item>
+        <item>세이셸</item>
+        <item>세인트루시아</item>
+        <item>세인트빈센트그레나딘</item>
+        <item>세인트킷츠네비스</item>
+        <item>소말리아</item>
+        <item>솔로몬아일랜드</item>
+        <item>수단</item>
+        <item>수리남</item>
+        <item>스리랑카</item>
+        <item>스와질랜드</item>
+        <item>스웨덴</item>
+        <item>스위스</item>
+        <item>스페인</item>
+        <item>슬로바키아</item>
+        <item>슬로베니아</item>
+        <item>시리아</item>
+        <item>시에라리온</item>
+        <item>싱가포르</item>
+        <item>아랍에미리트</item>
+        <item>아르메니아</item>
+        <item>아르헨티나</item>
+        <item>아이슬란드</item>
+        <item>아이티</item>
+        <item>아일랜드</item>
+        <item>아제르바이잔</item>
+        <item>아프가니스탄</item>
+        <item>안도라</item>
+        <item>알바니아</item>
+        <item>알제리</item>
+        <item>앙골라</item>
+        <item>앤티가바부다</item>
+        <item>에리트리아</item>
+        <item>에스토니아</item>
+        <item>에콰도르</item>
+        <item>에티오피아</item>
+        <item>엘살바도르</item>
+        <item>영국</item>
+        <item>예멘</item>
+        <item>오만</item>
+        <item>오스트리아</item>
+        <item>온두라스</item>
+        <item>요르단</item>
+        <item>우간다</item>
+        <item>우루과이</item>
+        <item>우즈베키스탄</item>
+        <item>우크라이나</item>
+        <item>이라크</item>
+        <item>이란</item>
+        <item>이스라엘</item>
+        <item>이집트</item>
+        <item>이탈리아</item>
+        <item>인도</item>
+        <item>인도네시아</item>
+        <item>일본</item>
+        <item>자메이카</item>
+        <item>잠비아</item>
+        <item>적도기니</item>
+        <item>조지아</item>
+        <item>주트리니다드토바고</item>
+        <item>중국</item>
+        <item>중앙아프리카공화국</item>
+        <item>지부티</item>
+        <item>짐바브웨</item>
+        <item>차드공화국</item>
+        <item>체코</item>
+        <item>칠레</item>
+        <item>카메룬</item>
+        <item>카보베르데</item>
+        <item>카자흐스탄</item>
+        <item>카타르</item>
+        <item>캄보디아</item>
+        <item>캐나다</item>
+        <item>케냐</item>
+        <item>코모로</item>
+        <item>코소보</item>
+        <item>코스타리카</item>
+        <item>코트디부아르</item>
+        <item>콜롬비아</item>
+        <item>콩고</item>
+        <item>콩고민주공화국</item>
+        <item>쿠바</item>
+        <item>쿠웨이트</item>
+        <item>크로아티아</item>
+        <item>키르기스공화국</item>
+        <item>키리바시</item>
+        <item>키프로스</item>
+        <item>타지키스탄</item>
+        <item>탄자니아</item>
+        <item>태국</item>
+        <item>터키</item>
+        <item>토고</item>
+        <item>통가</item>
+        <item>투르크메니스탄</item>
+        <item>투발루</item>
+        <item>튀니지</item>
+        <item>파나마</item>
+        <item>파키스탄</item>
+        <item>파푸아뉴기니</item>
+        <item>팔라우</item>
+        <item>팔레스타인</item>
+        <item>페루</item>
+        <item>포르투갈</item>
+        <item>폴란드</item>
+        <item>프랑스</item>
+        <item>피지</item>
+        <item>핀란드</item>
+        <item>필리핀</item>
+        <item>헝가리</item>
+        <item>호주</item>
+
+    </string-array>
+    <string-array name="array_1">
+        <item>주 고베 총영사관\n   ☎ (+81)-78-221-4853~5</item>
+        <item>주 나고야 총영사관\n   ☎ (81-90)8153-6588</item>
+        <item>주 요코하마 총영사관\n   ☎ (+81)-045-621-4531~3</item>
+        <item>주 센다이 총영사관\n   ☎ (+81)-80-2843-3543</item>
+        <item>주 히로시마 총영사관\n   ☎ 082-568-0502~0503</item>
+        <item>주 오사카 총영사관\n   ☎ (+81)-(0)6-6213-1401-5</item>
+        <item>주 후쿠오카 총영사관\n   ☎ 090-1367-3638</item>
+        <item>주 삿포로 총영사관\n   ☎ (81-80)1971-0288</item>
+        <item>주 니가타 총영사관\n   ☎ (+81) 90-8873-8853</item>
+    </string-array>
+
+    <string-array name="array_2">
+        <item>주 뉴질랜드 대사관\n   ☎ (+64) 4 473 9073/4</item>
+        <item>주 오클랜드 분관\n   ☎ (+64)9 379 0818</item>
+    </string-array>
+
+    <string-array name="array_3">
+        <item>주 뉴질랜드 대사관\n   ☎ (+64) 4 473 9073/4</item>
+    </string-array>
+
+    <string-array name="array_4">
+        <item>주 뉴질랜드 대사관\n   ☎ (+64) 4 473 9073/4</item>
+    </string-array>
+
+    <string-array name="array_5">
+        <item>주 중국 대사관\n   ☎ (86-10)8531-0700</item>
+        <item>주 다롄 출장소\n   ☎ (86-411)8235-6288</item>
+        <item>주 상하이 총영사관\n   ☎ (86-21)6295-5000</item>
+        <item>주 청뚜 총영사관\n   ☎ (+86)-28-8616-5800</item>
+        <item>주 광저우 총영사관\n   ☎ (+86)-20-2919-2999</item>
+        <item>주 선양 총영사관\n   ☎ (+86)-24-2385-3388</item>
+        <item>주 시안 총영사관\n   ☎ (029)8835-1001</item>
+        <item>주 우한 총영사관\n   ☎ (027)8556-1085</item>
+        <item>주 칭다오 총영사관\n   ☎ (+86)-532-8897-6001</item>
+
+    </string-array>
+
+    <string-array name="array_6">
+        <item>주 라오스 대사관\n   ☎ 856-21-352-031~3</item>
+    </string-array>
+
+    <string-array name="array_7">
+        <item>주 호주 대사관\n   ☎ (+61)-2-6270-4100</item>
+        <item>주 멜번 분관\n   ☎ (+61)418-435-915</item>
+        <item>주 시드니 총영사관\n   ☎ (+61)421-525-446</item>
+    </string-array>
+
+    <string-array name="array_8">
+        <item>주 인도 대사관\n   ☎ (+91-11)4200-7000</item>
+        <item>주 뭄바이 총영사관\n   ☎ (+91)-98336-00184</item>
+        <item>주 첸나이 총영사관\n   ☎ (+91)-97-8982-3270</item>
+    </string-array>
+
+    <string-array name="array_9">
+        <item>주 방글라데시 대사관\n   ☎ (+880)-17-5563-9618</item>
+    </string-array>
+
+    <string-array name="array_10">
+        <item>주 브루나이 대사관\n   ☎ (+673)-233-0248~0250</item>
+    </string-array>
+
+    <string-array name="array_11">
+        <item>주 싱가포르 대사관\n   ☎ (+65)-6256-1188</item>
+
+    </string-array>
+
+    <string-array name="array_12">
+        <item>주 아프가니스탄 대사관\n   ☎ (+93)20 210 2481</item>
+
+    </string-array>
+
+    <string-array name="array_13">
+        <item>주 인도네시아 대사관\n   ☎ (+62)-21-2697-2555</item>
+
+    </string-array>
+
+    <string-array name="array_14">
+        <item>주 파키스탄 대사관\n   ☎ (+92)301 854 6944</item>
+        <item>주 카라치 분관\n   ☎ (+92)-333-228-4368</item>
+
+    </string-array>
+
+    <string-array name="array_15">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_16">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_17">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_18">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_19">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_20">
+        <item>주 피지 대사관\n   ☎ 679-992-1086</item>
+
+    </string-array>
+
+    <string-array name="array_21">
+        <item>주 방글라데시 대사관\n   ☎ (+880)-17-5563-9618</item>
+
+    </string-array>
+
+    <string-array name="array_22">
+        <item>주 필리핀 대사관\n   ☎ (63-2)856-9210</item>
+        <item>주 세부 분관\n   ☎ (63)917-808-3907</item>
+
+    </string-array>
+
+    <string-array name="array_23">
+        <item>주 필리핀 대사관\n   ☎ (63-2)856-9210</item>
+
+    </string-array>
+
+    <string-array name="array_24">
+        <item>주 네팔 대사관\n   ☎ (977-1)427-7391</item>
+
+    </string-array>
+
+    <string-array name="array_25">
+        <item>주 동티모르 대사관\n   ☎ (+670)7701-2170</item>
+
+    </string-array>
+
+    <string-array name="array_26">
+        <item>주 미얀마연방공화국 대사관\n   ☎ (95)-1-527142~4</item>
+
+    </string-array>
+
+    <string-array name="array_27">
+        <item>주 베트남 대사관\n   ☎ (04)-3831-5110~6</item>
+        <item>주 호치민 총영사관\n   ☎ 093-850-0238</item>
+
+    </string-array>
+
+    <string-array name="array_28">
+        <item>주 스리랑카 대사관\n   ☎ (+94)-77736431</item>
+
+    </string-array>
+
+    <string-array name="array_29">
+        <item>주 캄보디아 대사관\n   ☎ (855-92)555-235</item>
+
+    </string-array>
+
+    <string-array name="array_30">
+        <item>주 태국 대사관\n   ☎ (662)247-7537~39</item>
+
+    </string-array>
+
+    <string-array name="array_31">
+        <item>주 타이뻬이 대표부\n   ☎ (886)-2-8320~5</item>
+
+    </string-array>
+
+    <string-array name="array_32">
+        <item>주 파푸아뉴기니 대사관\n   ☎ (675)7972-3649</item>
+
+    </string-array>
+
+    <string-array name="array_33">
+        <item>주 파푸아뉴기니 대사관\n   ☎ (675)7972-3649</item>
+
+    </string-array>
+
+    <string-array name="array_34">
+        <item>주 몽골 대사관\n   ☎ (+976)-11-32-1548</item>
+
+    </string-array>
+
+    <string-array name="array_35">
+        <item>주 말레이시아 대사관\n   ☎ 03-4251-2336</item>
+
+    </string-array>
+
+    <string-array name="array_36">
+        <item>주 과테말라 대사관\n   ☎ (502)2382-4051~5</item>
+
+    </string-array>
+
+    <string-array name="array_37">
+        <item>주 니카라과 대사관\n   ☎ 505-8238-9371</item>
+
+    </string-array>
+
+    <string-array name="array_38">
+        <item>주 도미니카공화국 대사관\n   ☎ 1829-340-3494</item>
+
+    </string-array>
+
+    <string-array name="array_39">
+        <item>주 멕시코 대사관\n   ☎ (+52)-55-5202-9866</item>
+
+    </string-array>
+
+    <string-array name="array_40">
+        <item>주 베네수엘라 대사관\n   ☎ (58)-0421-309-3247</item>
+
+    </string-array>
+
+    <string-array name="array_41">
+        <item>주 볼리비아 대사관\n   ☎ (591)7673-3334</item>
+
+    </string-array>
+
+    <string-array name="array_42">
+        <item>주 아르헨티나 대사관\n   ☎ (54-911)3572-0307</item>
+
+    </string-array>
+
+    <string-array name="array_43">
+        <item>주 엘사바도르 대사관\n   ☎ (+503)-7318-1450</item>
+
+    </string-array>
+
+    <string-array name="array_44">
+        <item>주 온두라스 대사관\n   ☎ (+504)2235-5561</item>
+
+    </string-array>
+
+    <string-array name="array_45">
+        <item>주 칠레 대사관\n   ☎ (+56)-9-7430-4546</item>
+
+    </string-array>
+
+    <string-array name="array_46">
+        <item>주 코스타리카 대사관\n   ☎ (+506)8730-4365</item>
+
+    </string-array>
+
+    <string-array name="array_47">
+        <item>주 페루 대사관\n   ☎ (51)996-331-469</item>
+
+    </string-array>
+
+    <string-array name="array_48">
+        <item>주 베네수엘라 대사관\n   ☎ (58)-0421-309-3247</item>
+
+    </string-array>
+
+    <string-array name="array_49">
+        <item>주 도미니카공화국 대사관\n   ☎ 1829-340-3494</item>
+
+    </string-array>
+
+    <string-array name="array_50">
+        <item>주 도미니카공화국 대사관\n   ☎ 1829-340-3494</item>
+
+    </string-array>
+
+    <string-array name="array_51">
+        <item>주 자메이카 대사관\n   ☎ (1-876)287-3828</item>
+
+    </string-array>
+
+    <string-array name="array_52">
+        <item>주 트리니다드토바고 대사관\n   ☎ (+1868)-622-9081</item>
+
+    </string-array>
+
+    <string-array name="array_53">
+        <item>주 도미니카공화국 대사관\n   ☎ 1829-340-3494</item>
+
+    </string-array>
+
+    <string-array name="array_54">
+
+        <item>주 도미니카공화국 대사관\n   ☎ 1829-340-3494</item>
+
+    </string-array>
+
+    <string-array name="array_55">
+        <item>주 브라질 대사관\n   ☎ (+55)-61-3321-2500</item>
+        <item>주 상파울루 총영사관\n   ☎ (+55_-11-3141-1278</item>
+
+    </string-array>
+
+    <string-array name="array_56">
+        <item>주 에콰도르 대사관\n   ☎ 593-999-182-806</item>
+
+
+    </string-array>
+
+    <string-array name="array_57">
+        <item>주 우루과이 대사관\n   ☎ (598)94-111-593</item>
+
+
+    </string-array>
+
+    <string-array name="array_58">
+        <item>주 캐나다 대사관\n   ☎ (613)244-5010</item>
+        <item>주 토론토 총영사관\n   ☎ 416-994-4490</item>
+        <item>주 몬트리올 총영사관\n   ☎ (514)845-2555</item>
+        <item>주 밴쿠버 총영사관\n   ☎ 604-313-0911</item>
+
+
+    </string-array>
+
+    <string-array name="array_59">
+        <item>주 콜롬비아 대사관\n   ☎ (+57)-321-976-3511</item>
+
+
+    </string-array>
+
+    <string-array name="array_60">
+        <item>주 트리니다드토바고 대사관\n   ☎ (+1868)-622-9081</item>
+
+
+    </string-array>
+
+    <string-array name="array_61">
+        <item>주 파나마 대사관\n   ☎ (+507_-6673-5309</item>
+
+
+    </string-array>
+
+    <string-array name="array_62">
+        <item>주 트리니다드토바고 대사관\n   ☎ (+1868)-622-9081</item>
+
+
+    </string-array>
+
+    <string-array name="array_63">
+
+        <item>주 트리니다드토바고 대사관\n   ☎ (+1868)-622-9081</item>
+
+    </string-array>
+
+    <string-array name="array_64">
+        <item>주 트리니다드토바고 대사관\n   ☎ (+1868)-622-9081</item>
+
+
+    </string-array>
+
+    <string-array name="array_65">
+        <item>주 엘살바도르 대사관\n   ☎ (+503)-7318-1450</item>
+
+
+    </string-array>
+
+    <string-array name="array_66">
+        <item>주 베네수엘라 대사관\n   ☎ (58)0412-309-3247</item>
+
+
+    </string-array>
+
+    <string-array name="array_67">
+        <item>주 도미니카공화국 대사관\n   ☎ 1809-383-9091</item>
+
+
+    </string-array>
+
+    <string-array name="array_68">
+        <item>주 멕시코 대사관\n   ☎ 52-55-9866</item>
+
+
+    </string-array>
+
+    <string-array name="array_69">
+        <item>주 미국 대사관\n   ☎ 202-939-5600</item>
+        <item>주 샌프라시스코 총영사관\n   ☎ 415-921-2251</item>
+        <item>주 시애틀 총영사관\n   ☎ 206-441-1011~4</item>
+        <item>주 앵커리지 출장소\n   ☎ (+1)-907-339-7955</item>
+        <item>주 호놀룰루 총영사관\n   ☎ (+1)(808)595-6109</item>
+        <item>주 뉴욕 총영사관\n   ☎ 1-646-674-6000</item>
+        <item>주 댈러스 출장소\n   ☎ 1-713-259-9257</item>
+        <item>주 로스앤젤레스 총영사관\n   ☎ 213-385-9300</item>
+        <item>주 보스턴 총영사관\n   ☎ 617-641-2830</item>
+        <item>주 시카고 총영사관\n   ☎ (312)371-6316</item>
+        <item>주 애틀랜타 총영사관\n   ☎ 404-522-1611~3</item>
+        <item>주 하갓냐 출장소\n   ☎ (+1)(671)647-6488</item>
+        <item>주 휴스턴 총영사관\n   ☎ 713-961-0186</item>
+
+
+    </string-array>
+
+    <string-array name="array_70">
+        <item>주 네덜란드대사관\n   ☎ (+37)-70-740-0200</item>
+
+
+    </string-array>
+
+    <string-array name="array_71">
+        <item>주 덴마크 대사관\n   ☎ (+45)-25-21-74-61</item>
+    </string-array>
+
+    <string-array name="array_72">
+        <item>주 스페인 대사관\n   ☎ (32)-353-2000</item>
+        <item>주 라스팔마스 분관\n   ☎ (+34)-928-230-499</item>
+    </string-array>
+
+    <string-array name="array_73">
+        <item>주 루마니아 대사관\n   ☎ (+40)-723-540-233</item>
+    </string-array>
+
+    <string-array name="array_74">
+
+
+        <item>주 벨기에 대사관\n   ☎ (+32)-(0)2-675-5777</item>
+    </string-array>
+
+    <string-array name="array_75">
+
+
+        <item>주 세르비아 대사관\n   ☎ (+381)-11-3674-225</item>
+    </string-array>
+
+    <string-array name="array_76">
+
+        <item>주 스위스 대사관\n   ☎ 41-(0)79-339-5812</item>
+        <item>주 제네바 총영사관\n   ☎ (+41)-(0)22-748-0000</item>
+
+    </string-array>
+
+    <string-array name="array_77">
+        <item>주 슬로바키아 대사관\n   ☎ (+421)-(0)2-3307-0711</item>
+
+    </string-array>
+
+    <string-array name="array_78">
+        <item>주 아제르바이잔 대사관\n   ☎ (994-51)877-9607</item>
+
+    </string-array>
+
+    <string-array name="array_79">
+        <item>주 영국 대사관\n   ☎ (+44)-(0)2-7227-5500</item>
+
+    </string-array>
+
+    <string-array name="array_80">
+        <item>주 우즈베키스탄 대사관\n   ☎ (+998)-71-252-351~3</item>
+
+    </string-array>
+
+    <string-array name="array_81">
+        <item>주 크로아티아 대사관\n   ☎ (+385)-(0)91-2200-325</item>
+
+    </string-array>
+
+    <string-array name="array_82">
+        <item>주 타지키스탄 대사관\n   ☎ (+992)-93-532-0803</item>
+
+    </string-array>
+
+    <string-array name="array_83">
+        <item>주 투르크메니스탄 대사관\n   ☎ (+993)-6585-7173</item>
+
+    </string-array>
+
+    <string-array name="array_84">
+        <item>주 폴란드 대사관\n   ☎ (+48)-22-559-29-00~04</item>
+
+    </string-array>
+
+    <string-array name="array_85">
+        <item>주 카자흐스탄 대사관\n   ☎ 7705-757-9922</item>
+        <item>주 알마티 총영사관\n   ☎ (+7)-777-215-8112</item>
+
+    </string-array>
+
+    <string-array name="array_86">
+        <item>주 벨기에 대사관\n   ☎ (+32)-(0)2-675-5777</item>
+
+    </string-array>
+
+    <string-array name="array_87">
+        <item>주 스위스 대사관\n   ☎ 41-(0)79-339-5812</item>
+
+    </string-array>
+
+    <string-array name="array_88">
+        <item>주 프랑스 대사관\n   ☎ 01-47-53-01-01</item>
+
+    </string-array>
+
+    <string-array name="array_89">
+        <item>주 우크라이나 대사관\n   ☎ (+380)(44)-246-3759/61</item>
+
+    </string-array>
+
+    <string-array name="array_90">
+        <item>주 크로아티아 대사관\n   ☎ (+385)-(0)91-2200-325</item>
+
+    </string-array>
+
+    <string-array name="array_91">
+        <item>주 이탈리아 대사관\n   ☎ (+39)06-802461</item>
+
+    </string-array>
+
+    <string-array name="array_92">
+        <item>주 러시아 대사관\n   ☎ (7-495)783-2727</item>
+
+    </string-array>
+
+    <string-array name="array_93">
+        <item>주 그리스 대사관\n   ☎ (+30)-210-698-4080</item>
+
+    </string-array>
+
+    <string-array name="array_94">
+        <item>주 아제르바이잔 대사관\n   ☎ (994-51)877-9607</item>
+
+    </string-array>
+
+    <string-array name="array_95">
+        <item>주 그리스 대사관\n   ☎ (+30)-210-698-4080</item>
+
+    </string-array>
+
+    <string-array name="array_96">
+        <item>주 노르웨이 대사관\n   ☎ (47)2254-7090</item>
+
+    </string-array>
+
+    <string-array name="array_97">
+        <item>주 독일 대사관\n   ☎ 0173-407-6943</item>
+        <item>주 프랑크푸르트 총영사관\n   ☎ (+46)-(0)69-956-7520</item>
+        <item>주 함부르크 총영사관\n   ☎ (+49)-1703401498</item>
+
+    </string-array>
+
+    <string-array name="array_98">
+        <item>주 러시아 대사관\n   ☎ (7-495)783-2727</item>
+        <item>주 블라디보스톡 총영사관\n   ☎ (+7)-423-240-2222</item>
+        <item>주 상트페테르부르크 총영사관\n   ☎ (+7)-812-448-1500</item>
+        <item>주 이르쿠츠크 총영사관\n   ☎ (7-3952)250-301</item>
+
+    </string-array>
+
+    <string-array name="array_99">
+        <item>주 벨라루스 대사관\n   ☎ (375-29)106-0017</item>
+
+    </string-array>
+
+    <string-array name="array_100">
+        <item>주 불가리아 대사관\n   ☎ (+359)-888-917-445</item>
+
+    </string-array>
+
+    <string-array name="array_101">
+        <item>주 스웨덴 대사관\n   ☎ (+46)-(0)73-330-1616</item>
+
+    </string-array>
+
+
+    <string-array name="array_102">
+        <item>주 아일랜드 대사관\n   ☎ (+353)-(0)1-660-8800</item>
+
+    </string-array>
+
+    <string-array name="array_103">
+        <item>주 오스트리아 대사관\n   ☎ (+43)-664-527-0743</item>
+
+    </string-array>
+
+    <string-array name="array_104">
+        <item>주 우크라이나 대사관\n   ☎ (+380)-(44)-246-3759</item>
+
+    </string-array>
+
+    <string-array name="array_105">
+        <item>주 키르기스공화국 대사관\n   ☎ (+996)-312-579-771</item>
+
+    </string-array>
+
+    <string-array name="array_106">
+        <item>주 터키 대사관\n   ☎ (+90)-533-203-6535</item>
+        <item>주 이스탄불 총영사관\n   ☎ (90)212-368-8368</item>
+
+    </string-array>
+
+    <string-array name="array_107">
+        <item>주 포르투갈 대사관\n   ☎ (+351)-91-079-5055</item>
+
+    </string-array>
+
+    <string-array name="array_108">
+        <item>주 프랑스 대사관\n   ☎ 01-47-53-01-01</item>
+
+    </string-array>
+
+    <string-array name="array_109">
+        <item>주 핀란드 대사관\n   ☎ (+358)40-903-1013</item>
+
+    </string-array>
+
+    <string-array name="array_110">
+        <item>주 헝가리 대사관\n   ☎ (+36)-1-462-3080</item>
+
+    </string-array>
+
+    <string-array name="array_111">
+        <item>주 이탈리아 대사관\n   ☎ (+39)06-802461</item>
+        <item>주 밀라노 총영사관\n   ☎ (00)39-02-2906-2641</item>
+
+    </string-array>
+
+    <string-array name="array_112">
+        <item>주 체코 대사관\n   ☎ (+420)-234-090-411</item>
+
+    </string-array>
+
+    <string-array name="array_113">
+        <item>주 스웨덴 대사관\n   ☎ (+46)-(0)73-330-1616</item>
+
+    </string-array>
+
+    <string-array name="array_114">
+        <item>주 폴란드 대사관\n   ☎ (+48)-22-559-29-00~04</item>
+
+    </string-array>
+
+    <string-array name="array_115">
+        <item>주 불가리아 대사관\n   ☎ (+359)-888-917-445</item>
+
+    </string-array>
+
+    <string-array name="array_116">
+        <item>주 세르비아 대사관\n   ☎ (+381)-11-3674-225</item>
+
+    </string-array>
+
+    <string-array name="array_117">
+        <item>주 이탈리아 대사관\n   ☎ (+39)06-802461</item>
+
+    </string-array>
+
+    <string-array name="array_118">
+        <item>주 그리스 대사관\n   ☎ (+30)-210-698-4080</item>
+
+    </string-array>
+
+    <string-array name="array_119">
+        <item>주 오스트리아 대사관\n   ☎ (+43)-664-527-0743</item>
+
+    </string-array>
+
+    <string-array name="array_120">
+        <item>주 노르웨이 대사관\n   ☎ (47)2254-7090</item>
+
+    </string-array>
+
+    <string-array name="array_121">
+        <item>주 스페인 대사관\n   ☎ (32)91-353-2000</item>
+
+    </string-array>
+
+    <string-array name="array_122">
+        <item>주 핀란드 대사관\n   ☎ (+358)40-903-1013</item>
+
+    </string-array>
+
+    <string-array name="array_123">
+        <item>주 오스트리아 대사관\n   ☎ (+43)-664-527-0743</item>
+
+    </string-array>
+
+    <string-array name="array_124">
+        <item>주 가나 대사관\n   ☎ (+233)244-321-858</item>
+
+    </string-array>
+
+    <string-array name="array_125">
+        <item>주 나이지리아 대사관\n   ☎ (+234)-81-6985-8556</item>
+        <item>주 라고스 분관\n   ☎ (+234)-80-2290-5494</item>
+
+    </string-array>
+
+    <string-array name="array_126">
+        <item>주 레바논 대사관\n   ☎ (+961)-71-411-552</item>
+
+    </string-array>
+
+    <string-array name="array_127">
+        <item>주 리비아 대사관\n   ☎ (+216)-22-575-924</item>
+
+    </string-array>
+
+    <string-array name="array_128">
+        <item>주 모잠비크 대사관\n   ☎ (+258)-21-495-625</item>
+
+    </string-array>
+
+    <string-array name="array_129">
+        <item>주 사우디아라비아 대사관\n   ☎ 966-50-080-1065</item>
+        <item>주 젯다 총영사관\n   ☎ (+966)-12-668-1990</item>
+
+    </string-array>
+
+    <string-array name="array_130">
+        <item>주 수단 대사관\n   ☎ (+249)-9-1235-4381</item>
+
+
+    </string-array>
+
+    <string-array name="array_131">
+        <item>주 알제리 대사관\n   ☎ (+213)-(0)770-11-44-00</item>
+
+    </string-array>
+
+    <string-array name="array_132">
+        <item>주 에티오피아 대사관\n   ☎ (+251)-911-200-576</item>
+
+    </string-array>
+
+    <string-array name="array_133">
+        <item>주 오만 대사관\n   ☎ (+968)-2469-1490~2</item>
+
+    </string-array>
+
+    <string-array name="array_134">
+        <item>주 우간다 대사관\n   ☎ (+254)-774-478-376</item>
+
+    </string-array>
+
+    <string-array name="array_135">
+        <item>주 이란 대사관\n   ☎ (+98)-912-159-1158</item>
+
+    </string-array>
+
+    <string-array name="array_136">
+        <item>주 이집트 대사관\n   ☎ (+20)-2-3761-1234</item>
+
+    </string-array>
+
+    <string-array name="array_137">
+        <item>주 짐바브웨 대사관\n   ☎ (+263)-772-781-430</item>
+
+    </string-array>
+
+    <string-array name="array_138">
+        <item>주 카타르 대사관\n   ☎ (+974)-5582-8295</item>
+
+    </string-array>
+
+    <string-array name="array_139">
+        <item>주 코트디부아르 대사관\n   ☎ (+225)-2248-6701</item>
+
+    </string-array>
+
+    <string-array name="array_140">
+        <item>주 쿠웨이트 대사관\n   ☎ (+965)-2537-8621/2/3</item>
+
+    </string-array>
+
+    <string-array name="array_141">
+        <item>주 튀니지 대사관\n   ☎ (+216)-99-567-040</item>
+
+    </string-array>
+
+    <string-array name="array_142">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-333-4295</item>
+
+    </string-array>
+
+    <string-array name="array_143">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-333-4295</item>
+
+    </string-array>
+
+    <string-array name="array_144">
+        <item>주 앙골라 대사관\n   ☎ (+244)-929-212-880</item>
+
+    </string-array>
+
+    <string-array name="array_145">
+        <item>주 남아공 대사관\n   ☎ (+27)-071-474-7458</item>
+
+    </string-array>
+
+    <string-array name="array_146">
+        <item>주 짐바브웨 대사관\n   ☎ (+263)-772-781-430</item>
+
+    </string-array>
+
+    <string-array name="array_147">
+        <item>주 케냐 대사관\n   ☎ (+254)-708-984-891</item>
+
+    </string-array>
+
+    <string-array name="array_148">
+        <item>주 가나 대사관\n   ☎ (+233)244-321-858</item>
+
+    </string-array>
+
+    <string-array name="array_149">
+        <item>주 르완다 대사관\n   ☎ (+250)-252-577-577</item>
+
+    </string-array>
+
+    <string-array name="array_150">
+        <item>주 가봉 대사관\n   ☎ (00241)0750-7822</item>
+
+    </string-array>
+
+    <string-array name="array_151">
+        <item>주 케냐 대사관\n   ☎ (+254)-708-984-891</item>
+
+    </string-array>
+
+    <string-array name="array_152">
+        <item>주 레바논 대사관\n   ☎ (+961)-71-411-552</item>
+
+    </string-array>
+
+    <string-array name="array_153">
+        <item>주 수단 대사관\n   ☎ (+249)-9-1235-4381</item>
+
+    </string-array>
+
+    <string-array name="array_154">
+        <item>주 가봉 대사관\n   ☎ (00241)0750-7822</item>
+
+    </string-array>
+
+    <string-array name="array_155">
+        <item>주 에티오피아 대사관\n   ☎ (+251)-911-200-576</item>
+
+    </string-array>
+
+    <string-array name="array_156">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-333-4295</item>
+
+    </string-array>
+
+    <string-array name="array_157">
+        <item>주 콩고민주공화국 대사관\n   ☎ (+243)-(0)99-017-7568</item>
+
+    </string-array>
+
+    <string-array name="array_158">
+        <item>주 가봉 대사관\n   ☎ (00241)0750-7822</item>
+
+    </string-array>
+
+    <string-array name="array_159">
+        <item>주 남아프리카공화국 대사관\n   ☎ (+27)-071-474-7458</item>
+
+    </string-array>
+
+    <string-array name="array_160">
+        <item>주 르완다 대사관\n   ☎ (+250)-252-577-577</item>
+
+    </string-array>
+
+    <string-array name="array_161">
+        <item>주 모로코 대사관\n   ☎ (+212)-661-16-4851</item>
+
+    </string-array>
+
+    <string-array name="array_162">
+        <item>주 바레인 대사관\n   ☎ (+973)-3883-3233</item>
+
+    </string-array>
+
+    <string-array name="array_163">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-740-5151</item>
+
+    </string-array>
+
+    <string-array name="array_164">
+        <item>주 아랍에미리트 대사관\n   ☎ (+971)-50-613-5722</item>
+        <item>주 두바이 총영사관\n   ☎ (+971)-50-553-2816</item>
+
+    </string-array>
+
+    <string-array name="array_165">
+        <item>주 앙골라 대사관\n   ☎ (+244)-929-212-880</item>
+
+    </string-array>
+
+    <string-array name="array_166">
+        <item>주 예멘 대사관\n   ☎ (+967)-735-671-615</item>
+
+    </string-array>
+
+    <string-array name="array_167">
+        <item>주 요르단 대사관\n   ☎ (+962)-79-560-0316</item>
+
+    </string-array>
+
+
+    <string-array name="array_168">
+        <item>주 이라크 대사관\n   ☎ (+964)-(0)770-725-2006</item>
+
+    </string-array>
+
+    <string-array name="array_169">
+        <item>주 이스라엘 대사관\n   ☎ (972)-8839479</item>
+
+    </string-array>
+
+    <string-array name="array_170">
+        <item>주 카메룬 대사관\n   ☎ (+237)-6-9487-3695</item>
+
+    </string-array>
+
+    <string-array name="array_171">
+        <item>주 케냐 대사관\n   ☎ (+254)-708-984-891</item>
+
+    </string-array>
+
+    <string-array name="array_172">
+        <item>주 콩고민주공화국 대사관\n   ☎ (+243)-(0)99-017-7568</item>
+
+    </string-array>
+
+    <string-array name="array_173">
+        <item>주 탄자니아 대사관\n   ☎ (+255)-754-360-931</item>
+
+    </string-array>
+
+    <string-array name="array_174">
+        <item>주 팔레스타인 대표사무소\n   ☎ 050-641-3026</item>
+
+    </string-array>
+
+    <string-array name="array_175">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-333-4295</item>
+
+    </string-array>
+
+    <string-array name="array_176">
+        <item>주 코트디부아르 대사관\n   ☎ (+225)-2248-6701</item>
+
+    </string-array>
+
+    <string-array name="array_177">
+        <item>주 나이지리아 대사관\n   ☎ (+234)-81-6985-8556</item>
+
+    </string-array>
+
+    <string-array name="array_178">
+        <item>주 남아공 대사관\n   ☎ (+27)-071-474-7458</item>
+
+    </string-array>
+
+    <string-array name="array_179">
+        <item>주 세네갈 대사관\n   ☎ (+221)-77-333-4295</item>
+
+    </string-array>
+
+    <string-array name="array_180">
+        <item>주 모로코 대사관\n   ☎ (+212)-661-16-4851</item>
+
+    </string-array>
+
+    <string-array name="array_181">
+        <item>주 남아공 대사관\n   ☎ (+27)-071-474-7458</item>
+
+    </string-array>
+
+    <string-array name="array_182">
+        <item>주 코트디부아르 대사관\n   ☎ (+225)-2248-6701</item>
+
+    </string-array>
+
+    <string-array name="array_183">
+        <item>주 에티오피아 대사관\n   ☎ (+251)-911-200-576</item>
+
+    </string-array>
+
+    <string-array name="array_184">
+        <item>주 남아공 대사관\n   ☎ (+27)-071-474-7458</item>
+
+    </string-array>
+
+    <string-array name="array_185">
+        <item>주 나이지리아 대사관\n   ☎ (+234)-81-6985-8556</item>
+
+    </string-array>
+
+    <string-array name="array_186">
+        <item>주 짐바브웨 대사관\n   ☎ (+263)-772-781-430</item>
+
+    </string-array>
+
+    <string-array name="array_187">
+        <item>주 카메룬 대사관\n   ☎ (+237)6-9487-3695</item>
+
+    </string-array>
+
+    <string-array name="array_188">
+        <item>주 카메룬 대사관\n   ☎ (+237)6-9487-3695</item>
+
+    </string-array>
+
+    <string-array name="array_189">
+        <item>주 케냐 대사관\n   ☎ (+254)-708-984-891</item>
+
+    </string-array>
+
+    <string-array name="array_190">
+        <item>주 가나 대사관\n   ☎ (+233)244-321-858</item>
+
+    </string-array>
+
+
+    <string-array name="array_1_1">
+        <item>(81-3)3452-7611/9</item>
+    </string-array>
+    <string-array name="array_1_2">
+        <item>(+81)-78-221-4853~5</item>
+    </string-array>
+
+
+    <string-array name="airline">
+        <item>제주항공(7C)</item>
+        <item>영국항공(BA)</item>
+        <item>에바항공(BR)</item>
+        <item>중국국제항공(CA)</item>
+        <item>중화항공(CI)</item>
+        <item>상하이항공(FM)</item>
+        <item>일본항공(JL)</item>
+        <item>대한항공(KE)</item>
+        <item>에어인천(KJ)</item>
+        <item>에어홍콩(LD)</item>
+        <item>진에어(LJ)</item>
+        <item>피치항공(MM)</item>
+        <item>중국동방항공(MU)</item>
+        <item>아시아나항공(OZ)</item>
+    </string-array>
+
+    <string-array name="airport">
+        <item>방콕(BKK)</item>
+        <item>광저우(CAN)</item>
+        <item>제주(CJU)</item>
+        <item>로마(FCO)</item>
+        <item>후쿠오카(FUK)</item>
+        <item>김포(GMP)</item>
+        <item>도쿄/ 하네다(HND)</item>
+        <item>홍콩(HKG)</item>
+        <item>하얼빈(HRB)</item>
+        <item>워싱턴(IAD)</item>
+        <item>뉴욕(JFK)</item>
+        <item>가오슝(KHH)</item>
+        <item>오사카/ 간사이(KIX)</item>
+        <item>기타큐슈(KKJ)</item>
+        <item>도쿄/ 나리타(NRT)</item>
+        <item>런던/히드로(LHR)</item>
+        <item>베이징(PEK)</item>
+        <item>부산(PUS)</item>
+        <item>상하이/ 푸동(PVG)</item>
+        <item>싱가포르(SIN)</item>
+        <item>대구(TAE)</item>
+        <item>타이페이(TPE)</item>
+        <item>인천(ICN)</item>
+    </string-array>
+
+
+
+    <string-array name="hour">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+
+    </string-array>
+
+    <string-array name="minute">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+
+    </string-array>
+</resources>

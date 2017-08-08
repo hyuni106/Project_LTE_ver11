@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="개인정보">
+            <menu>
+                <item
+                    android:id="@+id/nav_mypage"
+                    android:icon="@drawable/navi_user"
+                    android:title="마이페이지" />
+                <item
+                    android:id="@+id/nav_cart"
+                    android:icon="@drawable/navi_cart"
+                    android:title="여행카트" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="바로가기">
+            <menu>
+                <item
+                    android:id="@+id/nav_free"
+                    android:icon="@drawable/navi_comunity"
+                    android:title="여행 커뮤니티" />
+                <item
+                    android:id="@+id/nav_cal"
+                    android:icon="@drawable/navi_calculator"
+                    android:title="계산기" />
+                <item
+                    android:id="@+id/nav_sos"
+                    android:icon="@drawable/navi_sos"
+                    android:title="SOS" />
+                <item
+                    android:id="@+id/nav_flight"
+                    android:icon="@drawable/navi_flight"
+                    android:title="비행기 출도착" />
+                <item
+                    android:id="@+id/nav_game"
+                    android:icon="@drawable/navi_game"
+                    android:title="게임" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="도움말">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/navi_help"
+                android:title="사용방법" />
+            <item
+                android:id="@+id/nav_appversion"
+                android:icon="@drawable/navi_app"
+                android:title="앱버전" />
+        </menu>
+    </item>
+</menu>

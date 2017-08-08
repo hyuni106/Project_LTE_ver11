@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:fadingEdge="none"
+    android:background="#ffffff">
+
+    <ListView
+        android:id="@+id/nationList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#FFF4F4F4"
+        android:dividerHeight="0.0dip"
+        android:fadingEdge="none" />
+
+</LinearLayout>

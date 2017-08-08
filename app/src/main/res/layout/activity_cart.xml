@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <ListView
+            android:id="@+id/list_CartModule"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="0.67dp"></ListView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="147dp"
+        android:text="카트에 모듈이 없습니다. 모듈을 담아주세요"
+        android:id="@+id/txt_nomod"
+        android:visibility="gone"
+        android:focusable="false"/>
+</LinearLayout>

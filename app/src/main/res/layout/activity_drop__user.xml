@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이 버튼을 누르면 탈퇴됩니다.\n정말 탈퇴하실건가요?ㅠㅅㅠ\n탈퇴하지말아여..."
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/dropuser_btn"
+        android:id="@+id/btn_dropUser"/>
+</LinearLayout>

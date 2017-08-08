@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.sungkyul.project_lte_community.Read_Free_Board">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/free_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/title_txt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:hint="제목 작성"
+            android:id="@+id/edt_freetitle"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:hint="글 내용"
+        android:id="@+id/edt_freecontent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_FreeOK"
+            android:layout_width="95dp"
+            android:layout_height="37dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/selector_comwrite_click" />
+
+        <Button
+            android:id="@+id/btn_FreeCancel"
+            android:layout_width="95dp"
+            android:layout_height="37dp"
+            android:background="@drawable/selector_can_click" />
+    </LinearLayout>
+</LinearLayout>

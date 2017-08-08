@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/mypage_main_2" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user_null" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_MyContent"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/mycon_btn" />
+
+        <Button
+            android:id="@+id/btn_MyPlan"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:background="@drawable/myplan_btn" />
+
+        <Button
+            android:id="@+id/btn_SetSos"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/setsos_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ChangePW"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/changepw_btn" />
+
+        <Button
+            android:id="@+id/btn_ChangeNick"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:background="@drawable/changenick_btn" />
+
+        <Button
+            android:id="@+id/btn_Help"
+            android:layout_width="73dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/help_btn" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_UserOut"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dropuser_btn" />
+
+
+</LinearLayout>

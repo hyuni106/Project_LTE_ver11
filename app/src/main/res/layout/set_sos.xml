@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/setsos_main"/>
+
+    <EditText
+        android:id="@+id/edit_SOSPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="긴급 연락처"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_UpdatePhone"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:background="@drawable/selector_edit_click" />
+
+    <EditText
+        android:id="@+id/edit_SOScon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:hint="SOS 발송 문구" />
+
+    <Button
+        android:id="@+id/btn_UpdateCon"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:background="@drawable/selector_edit_click" />
+</LinearLayout>

@@ -1,0 +1,345 @@
+<html>
+<head>
+<title>Community_Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+.s3 { color: rgb(0,0,255); }
+.s4 { color: rgb(0,128,0); font-weight: bold; }
+.s5 { color: rgb(128,128,128); font-weight: bold; font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Community_Main.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">com.sungkyul.project_lte; 
+ 
+</span><span class="s0">import </span><span class="s1">android.app.AlertDialog; 
+</span><span class="s0">import </span><span class="s1">android.content.DialogInterface; 
+</span><span class="s0">import </span><span class="s1">android.content.Intent; 
+</span><span class="s0">import </span><span class="s1">android.os.Bundle; 
+</span><span class="s0">import </span><span class="s1">android.support.design.widget.NavigationView; 
+</span><span class="s0">import </span><span class="s1">android.support.design.widget.TabLayout; 
+</span><span class="s0">import </span><span class="s1">android.support.v4.view.GravityCompat; 
+</span><span class="s0">import </span><span class="s1">android.support.v4.view.ViewPager; 
+</span><span class="s0">import </span><span class="s1">android.support.v4.widget.DrawerLayout; 
+</span><span class="s0">import </span><span class="s1">android.support.v7.app.ActionBarActivity; 
+</span><span class="s0">import </span><span class="s1">android.support.v7.app.ActionBarDrawerToggle; 
+</span><span class="s0">import </span><span class="s1">android.support.v7.widget.Toolbar; 
+</span><span class="s0">import </span><span class="s1">android.view.KeyEvent; 
+</span><span class="s0">import </span><span class="s1">android.view.Menu; 
+</span><span class="s0">import </span><span class="s1">android.view.MenuItem; 
+</span><span class="s0">import </span><span class="s1">android.view.View; 
+</span><span class="s0">import </span><span class="s1">android.widget.Button; 
+</span><span class="s0">import </span><span class="s1">android.widget.TextView; 
+</span><span class="s0">import </span><span class="s1">android.widget.Toast; 
+ 
+</span><span class="s0">public class </span><span class="s1">Community_Main </span><span class="s0">extends </span><span class="s1">ActionBarActivity </span><span class="s0">implements </span><span class="s1">NavigationView.OnNavigationItemSelectedListener, DialogInterface.OnKeyListener { 
+ 
+    TextView nav_nick, nav_name; </span><span class="s2">//  로그인 여부, 이메일 보여줄 text 선언</span><span class="s1"> 
+    Button btn_navLogin; 
+    </span><span class="s0">private </span><span class="s1">Toolbar supportActionBar; </span><span class="s2">// ToolBar 선언</span><span class="s1"> 
+    </span><span class="s0">private </span><span class="s1">String name, email, login; 
+    MenuItem navLogin;   </span><span class="s2">// 로그인, 이메일 선언</span><span class="s1"> 
+    DrawerLayout drawer; 
+    Toolbar toolbar; 
+ 
+    @Override 
+    </span><span class="s0">protected void </span><span class="s1">onCreate(Bundle savedInstanceState) { 
+        </span><span class="s0">super</span><span class="s1">.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_community_main); 
+        </span><span class="s2">// 툴바 적용</span><span class="s1"> 
+        tabInit(); 
+        login(); 
+        navi(); 
+        log(); 
+    } 
+ 
+    </span><span class="s0">void </span><span class="s1">navi() { 
+        drawer = (DrawerLayout) findViewById(R.id.drawer_com);  </span><span class="s2">// 네비게이션 드로우를 적용하기 위해 DrawerLayout 선언 및 xml과 연동</span><span class="s1"> 
+ 
+        toolbar = (Toolbar) findViewById(R.id.toolbar); 
+        setSupportActionBar(toolbar); 
+ 
+        ActionBarDrawerToggle toggle = </span><span class="s0">new </span><span class="s1">ActionBarDrawerToggle(                </span><span class="s2">// 액션바 선언 및 할당</span><span class="s1"> 
+                </span><span class="s0">this</span><span class="s1">, drawer, toolbar, R.string.drawer_open, R.string.drawer_close); 
+        drawer.setDrawerListener(toggle); 
+        toggle.syncState(); </span><span class="s2">// 액션바를 indicator할 수 있도록 지원하는 메소드</span><span class="s1"> 
+ 
+        </span><span class="s0">final </span><span class="s1">NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view); </span><span class="s2">// 해당 네비게이션의 모습 선언 및 xml과 연동</span><span class="s1"> 
+        navigationView.setNavigationItemSelectedListener(</span><span class="s0">this</span><span class="s1">);                        </span><span class="s2">// 네비게이션 이벤트 처리</span><span class="s1"> 
+ 
+        View header = navigationView.getHeaderView(</span><span class="s3">0</span><span class="s1">); 
+        </span><span class="s2">/*View view=navigationView.inflateHeaderView(R.layout.nav_header_main);*/</span><span class="s1"> 
+        navLogin = navigationView.getMenu().getItem(</span><span class="s3">0</span><span class="s1">); 
+        nav_nick = (TextView) header.findViewById(R.id.nav_nick); 
+        nav_name = (TextView) header.findViewById(R.id.nav_email); 
+        btn_navLogin = (Button) header.findViewById(R.id.btnNavLogin); 
+        </span><span class="s2">/*** 
+         *  네비게이션 로그인/로그아웃 버튼 
+         */</span><span class="s1"> 
+        btn_navLogin.setOnClickListener(</span><span class="s0">new </span><span class="s1">View.OnClickListener() { 
+            @Override 
+            </span><span class="s0">public void </span><span class="s1">onClick(View v) { 
+ 
+                </span><span class="s0">if </span><span class="s1">(btn_navLogin.getText().toString() == </span><span class="s4">&quot;로그아웃&quot;</span><span class="s1">) { 
+                    </span><span class="s2">// 로그인인 경우</span><span class="s1"> 
+                    android.support.v7.app.AlertDialog.Builder alert = </span><span class="s0">new </span><span class="s1">android.support.v7.app.AlertDialog.Builder(Community_Main.</span><span class="s0">this</span><span class="s1">); 
+                    alert.setTitle(</span><span class="s4">&quot;로그아웃&quot;</span><span class="s1">); 
+                    alert.setMessage(</span><span class="s4">&quot;로그아웃 하시겠습니까?&quot;</span><span class="s1">); 
+                    alert.setNegativeButton(</span><span class="s4">&quot;예&quot;</span><span class="s1">, </span><span class="s0">new </span><span class="s1">DialogInterface.OnClickListener() { 
+                        @Override 
+                        </span><span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog, </span><span class="s0">int </span><span class="s1">which) { 
+                            </span><span class="s2">// 로그아웃 정보 필요</span><span class="s1"> 
+                            </span><span class="s2">// Login으로 이동</span><span class="s1"> 
+                            droppreference();   </span><span class="s2">// 로그아웃 메소드</span><span class="s1"> 
+                            Toast.makeText(Community_Main.</span><span class="s0">this</span><span class="s1">, </span><span class="s4">&quot;빠이&quot;</span><span class="s1">, Toast.LENGTH_SHORT).show(); 
+                            btn_navLogin.setText(</span><span class="s4">&quot;로그인&quot;</span><span class="s1">); 
+                            nav_name.setText(</span><span class="s4">&quot;로그인이 필요합니다&quot;</span><span class="s1">); 
+                            nav_nick.setText(</span><span class="s4">&quot;닉네임&quot;</span><span class="s1">); 
+                            drawer.closeDrawer(GravityCompat.START);        </span><span class="s2">// 네비게이션 창을 닫음</span><span class="s1"> 
+                        } 
+                    }); 
+                    alert.setPositiveButton(</span><span class="s4">&quot;아니오&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">); 
+                    alert.show(); 
+                } </span><span class="s0">else </span><span class="s1">{ 
+                    Toast.makeText(Community_Main.</span><span class="s0">this</span><span class="s1">, </span><span class="s4">&quot;로그인으로 이동&quot;</span><span class="s1">, Toast.LENGTH_SHORT).show(); 
+                    Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Login.</span><span class="s0">class</span><span class="s1">); 
+                    startActivity(intent); 
+                    finish(); 
+                } 
+            } 
+        }); 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * 로그인 값 가져올 메소드 
+     */</span><span class="s1"> 
+    </span><span class="s0">private void </span><span class="s1">login() { 
+        RbPreference pref = </span><span class="s0">new </span><span class="s1">RbPreference(</span><span class="s0">this</span><span class="s1">); </span><span class="s2">// 값 가져오기 위한 RbPreference class 생성</span><span class="s1"> 
+        login = pref.getValue(</span><span class="s4">&quot;login&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);      </span><span class="s2">// pref로부터 login값 가져와 login에 할당</span><span class="s1"> 
+        email = pref.getValue(</span><span class="s4">&quot;email&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);      </span><span class="s2">// pref로부터 email값 가져와 login에 할당</span><span class="s1"> 
+        name = pref.getValue(</span><span class="s4">&quot;name&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">); 
+    } 
+ 
+    </span><span class="s0">public void </span><span class="s1">log() { 
+        </span><span class="s0">if </span><span class="s1">(login != </span><span class="s0">null</span><span class="s1">) {    </span><span class="s2">// 로그인시</span><span class="s1"> 
+            btn_navLogin.setText(</span><span class="s4">&quot;로그아웃&quot;</span><span class="s1">); 
+            nav_name.setText(email); 
+            nav_nick.setText(name); 
+ 
+        } </span><span class="s0">else </span><span class="s1">{    </span><span class="s2">// 비로그인시</span><span class="s1"> 
+            btn_navLogin.setText(</span><span class="s4">&quot;로그인&quot;</span><span class="s1">); 
+            nav_name.setText(</span><span class="s4">&quot;로그인이 필요합니다.&quot;</span><span class="s1">); 
+            nav_nick.setText(</span><span class="s4">&quot;&quot;</span><span class="s1">); 
+        } 
+    } 
+ 
+    </span><span class="s0">void </span><span class="s1">tabInit() { 
+        </span><span class="s2">// 첫 시작 View Pager 선언</span><span class="s1"> 
+        ViewPager viewpager = (ViewPager) findViewById(R.id.viewPager); 
+ 
+        </span><span class="s2">// 어뎁터 가져오기</span><span class="s1"> 
+        ViewAdapter viewAdapter = </span><span class="s0">new </span><span class="s1">ViewAdapter(getSupportFragmentManager(), Community_Main.</span><span class="s0">this</span><span class="s1">); 
+ 
+        </span><span class="s2">// 뷰페이저 어댑터 설정</span><span class="s1"> 
+        viewpager.setAdapter(viewAdapter); 
+ 
+        </span><span class="s2">// 메인 layout</span><span class="s1"> 
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabView); 
+ 
+        </span><span class="s2">// viewPager 와 tabLayout을 연결</span><span class="s1"> 
+        tabLayout.setupWithViewPager(viewpager); 
+ 
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s3">0</span><span class="s1">; i &lt; tabLayout.getTabCount(); i++) { 
+ 
+            TabLayout.Tab tabName = tabLayout.getTabAt(i); 
+ 
+            tabName.setCustomView(viewAdapter.getTabView(i)); 
+        } 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * 네비게이션에서 뒤로가기 클릭 메소드 
+     */</span><span class="s1"> 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">onBackPressed() { 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_com); </span><span class="s2">// 네비게이션 선언 및 xml 연동</span><span class="s1"> 
+        </span><span class="s0">if </span><span class="s1">(drawer.isDrawerOpen(GravityCompat.START)) {     </span><span class="s2">// 네비게이션이 켜져있는 경우</span><span class="s1"> 
+            drawer.closeDrawer(GravityCompat.START);        </span><span class="s2">// 네비게이션 창을 닫음</span><span class="s1"> 
+        } </span><span class="s0">else </span><span class="s1">{ 
+            </span><span class="s0">super</span><span class="s1">.onBackPressed();                          </span><span class="s2">// 뒤로가기 이벤트</span><span class="s1"> 
+        } 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * 메뉴바 생성 
+     * 
+     * </span><span class="s5">@param </span><span class="s2">menu 
+     * </span><span class="s5">@return</span><span class="s2"> 
+     */</span><span class="s1"> 
+    @Override 
+    </span><span class="s0">public boolean </span><span class="s1">onCreateOptionsMenu(Menu menu) { 
+        </span><span class="s2">// Inflate the menu; this adds items to the action bar if it is present.</span><span class="s1"> 
+        getMenuInflater().inflate(R.menu.main, menu); 
+        </span><span class="s0">return true</span><span class="s1">; 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * 생성된 메뉴바를 액션바로 할당 
+     * 
+     * </span><span class="s5">@param </span><span class="s2">supportActionBar 
+     */</span><span class="s1"> 
+    </span><span class="s0">public void </span><span class="s1">setSupportActionBar(Toolbar supportActionBar) { 
+        </span><span class="s0">this</span><span class="s1">.supportActionBar = supportActionBar; 
+    } 
+ 
+    @SuppressWarnings(</span><span class="s4">&quot;StatementWithEmptyBody&quot;</span><span class="s1">) 
+    </span><span class="s0">public boolean </span><span class="s1">onNavigationItemSelected(MenuItem item) { 
+        </span><span class="s2">// Handle navigation view item clicks here.</span><span class="s1"> 
+        </span><span class="s0">int </span><span class="s1">id = item.getItemId(); 
+        </span><span class="s0">if </span><span class="s1">(id == R.id.nav_mypage) { 
+            </span><span class="s2">// 마이페이지</span><span class="s1"> 
+            </span><span class="s0">if </span><span class="s1">(login != </span><span class="s0">null</span><span class="s1">) { 
+                Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), MyPage.</span><span class="s0">class</span><span class="s1">); 
+                startActivity(intent); 
+                finish(); 
+            } </span><span class="s0">else </span><span class="s1">{ 
+                </span><span class="s2">// 로그인인 필요한 경우</span><span class="s1"> 
+                AlertDialog.Builder alert_confirm = </span><span class="s0">new </span><span class="s1">AlertDialog.Builder(Community_Main.</span><span class="s0">this</span><span class="s1">); 
+                alert_confirm.setMessage(</span><span class="s4">&quot;로그인이 필요합니다 로그인 하시겠습니까?&quot;</span><span class="s1">).setCancelable(</span><span class="s0">false</span><span class="s1">).setPositiveButton(</span><span class="s4">&quot;확인&quot;</span><span class="s1">, 
+                        </span><span class="s0">new </span><span class="s1">DialogInterface.OnClickListener() { 
+                            @Override 
+                            </span><span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog, </span><span class="s0">int </span><span class="s1">which) { 
+                                </span><span class="s2">// 'YES'</span><span class="s1"> 
+                                Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Login.</span><span class="s0">class</span><span class="s1">); 
+                                startActivity(intent); 
+                                finish(); 
+                            } 
+                        }).setNegativeButton(</span><span class="s4">&quot;아니오&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">); 
+ 
+                AlertDialog alert = alert_confirm.create(); 
+                alert.setOnKeyListener(</span><span class="s0">this</span><span class="s1">); 
+                alert.show(); 
+            } 
+        } </span><span class="s0">else if </span><span class="s1">(id == R.id.nav_cart) { 
+            </span><span class="s2">// 여행 카트</span><span class="s1"> 
+            </span><span class="s0">if </span><span class="s1">(login != </span><span class="s0">null</span><span class="s1">) { 
+                Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), CartActivity.</span><span class="s0">class</span><span class="s1">); 
+                startActivity(intent); 
+            } </span><span class="s0">else </span><span class="s1">{ 
+                </span><span class="s2">// 로그인인 필요한 경우</span><span class="s1"> 
+                AlertDialog.Builder alert = </span><span class="s0">new </span><span class="s1">AlertDialog.Builder(</span><span class="s0">this</span><span class="s1">); 
+                alert.setTitle(</span><span class="s4">&quot;로그인&quot;</span><span class="s1">); 
+                alert.setMessage(</span><span class="s4">&quot;로그인이 필요합니다. 로그인 하시겠습니까?&quot;</span><span class="s1">); 
+                alert.setPositiveButton(</span><span class="s4">&quot;예&quot;</span><span class="s1">, </span><span class="s0">new </span><span class="s1">DialogInterface.OnClickListener() { 
+                    @Override 
+                    </span><span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog, </span><span class="s0">int </span><span class="s1">which) { 
+                        </span><span class="s2">// 로그인</span><span class="s1"> 
+                        Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Login.</span><span class="s0">class</span><span class="s1">); 
+                        startActivity(intent); 
+                        finish(); 
+                    } 
+                }).setNegativeButton(</span><span class="s4">&quot;아니오&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">); 
+                alert.setOnKeyListener(</span><span class="s0">this</span><span class="s1">); 
+                alert.show(); 
+            } 
+        } </span><span class="s0">else if </span><span class="s1">(id == R.id.nav_free) { 
+            </span><span class="s2">// 여행 커뮤니티</span><span class="s1"> 
+            Toast.makeText(Community_Main.</span><span class="s0">this</span><span class="s1">, </span><span class="s4">&quot;현재 위치에 있습니다.&quot;</span><span class="s1">, Toast.LENGTH_SHORT).show(); 
+        } </span><span class="s0">else if </span><span class="s1">(id == R.id.nav_cal) { 
+            </span><span class="s2">// 계산기</span><span class="s1"> 
+            Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), CalculatorActivity.</span><span class="s0">class</span><span class="s1">); 
+            startActivity(intent); 
+            finish(); 
+        } </span><span class="s0">else if </span><span class="s1">(id == R.id.nav_sos) { 
+            </span><span class="s2">// SOS</span><span class="s1"> 
+            </span><span class="s0">if </span><span class="s1">(login != </span><span class="s0">null</span><span class="s1">) { 
+                Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), SOSMain.</span><span class="s0">class</span><span class="s1">); 
+                startActivity(intent); 
+                finish(); 
+            } </span><span class="s0">else </span><span class="s1">{ 
+                </span><span class="s2">// 로그인인 필요한 경우</span><span class="s1"> 
+                AlertDialog.Builder alert_confirm = </span><span class="s0">new </span><span class="s1">AlertDialog.Builder(Community_Main.</span><span class="s0">this</span><span class="s1">); 
+                alert_confirm.setMessage(</span><span class="s4">&quot;로그인이 필요합니다 로그인 하시겠습니까?&quot;</span><span class="s1">).setCancelable(</span><span class="s0">false</span><span class="s1">).setPositiveButton(</span><span class="s4">&quot;확인&quot;</span><span class="s1">, 
+                        </span><span class="s0">new </span><span class="s1">DialogInterface.OnClickListener() { 
+                            @Override 
+                            </span><span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog, </span><span class="s0">int </span><span class="s1">which) { 
+                                </span><span class="s2">// 'YES'</span><span class="s1"> 
+                                Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Login.</span><span class="s0">class</span><span class="s1">); 
+                                startActivity(intent); 
+                                finish(); 
+                            } 
+                        }).setNegativeButton(</span><span class="s4">&quot;아니오&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">); 
+ 
+                AlertDialog alert = alert_confirm.create(); 
+                alert.setOnKeyListener(</span><span class="s0">this</span><span class="s1">); 
+                alert.show(); 
+            } 
+        } </span><span class="s0">else if </span><span class="s1">(id == R.id.nav_help) { 
+            Intent intent = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Help.</span><span class="s0">class</span><span class="s1">); 
+            startActivity(intent); 
+            finish(); 
+        } 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout); 
+        drawer.closeDrawer(GravityCompat.START); 
+        </span><span class="s0">return true</span><span class="s1">; 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * 로그아웃 메소드 
+     * 해당 값에 null로 채우는 메소드 
+     */</span><span class="s1"> 
+    </span><span class="s0">public void </span><span class="s1">droppreference() { 
+        RbPreference pref = </span><span class="s0">new </span><span class="s1">RbPreference(</span><span class="s0">this</span><span class="s1">); </span><span class="s2">// RbPreference 생성</span><span class="s1"> 
+        pref.put(</span><span class="s4">&quot;email&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);                    </span><span class="s2">// 해당 email 값에 null 저장</span><span class="s1"> 
+        pref.put(</span><span class="s4">&quot;name&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);                    </span><span class="s2">// 해당 name 값에 null 저장</span><span class="s1"> 
+        pref.put(</span><span class="s4">&quot;login&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);                    </span><span class="s2">// 해당 login 값에 null 저장</span><span class="s1"> 
+        login = pref.getValue(</span><span class="s4">&quot;login&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);       </span><span class="s2">// null값을 login에 할당</span><span class="s1"> 
+        email = pref.getValue(</span><span class="s4">&quot;email&quot;</span><span class="s1">, </span><span class="s0">null</span><span class="s1">);       </span><span class="s2">// null값을 email에 할당</span><span class="s1"> 
+    } 
+ 
+    </span><span class="s0">public boolean </span><span class="s1">onKeyDown(</span><span class="s0">int </span><span class="s1">keyCode, KeyEvent event) { 
+ 
+        </span><span class="s0">switch </span><span class="s1">(keyCode) { 
+            </span><span class="s2">//하드웨어 뒤로가기 버튼에 따른 이벤트 설정</span><span class="s1"> 
+            </span><span class="s0">case </span><span class="s1">KeyEvent.KEYCODE_BACK: 
+                Intent intent_main = </span><span class="s0">new </span><span class="s1">Intent(getApplicationContext(), Main.</span><span class="s0">class</span><span class="s1">); 
+                startActivity(intent_main); 
+                finish(); 
+                </span><span class="s0">break</span><span class="s1">; 
+            </span><span class="s0">default</span><span class="s1">: 
+                </span><span class="s0">break</span><span class="s1">; 
+        } 
+        </span><span class="s0">return super</span><span class="s1">.onKeyDown(keyCode, event); 
+    } 
+ 
+    </span><span class="s2">/*** 
+     * alert 창 시 back버튼 
+     * 
+     * </span><span class="s5">@param </span><span class="s2">dialog 
+     * </span><span class="s5">@param </span><span class="s2">keyCode 
+     * </span><span class="s5">@param </span><span class="s2">event 
+     * </span><span class="s5">@return</span><span class="s2"> 
+     */</span><span class="s1"> 
+    @Override 
+    </span><span class="s0">public boolean </span><span class="s1">onKey(DialogInterface dialog, </span><span class="s0">int </span><span class="s1">keyCode, KeyEvent event) { 
+        </span><span class="s0">if </span><span class="s1">(keyCode == KeyEvent.KEYCODE_BACK) { 
+            dialog.dismiss(); 
+            </span><span class="s0">return true</span><span class="s1">; 
+        } 
+        </span><span class="s0">return false</span><span class="s1">; 
+    } 
+ 
+} 
+</span></pre>
+</body>
+</html>

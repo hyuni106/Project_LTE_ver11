@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="1. 사용자는 SOS를 사용하기위해 스마트폰의 위치정보를 미리 ON 시켜놔야 합니다. " />
+
+        <ImageView
+            android:id="@+id/helpLocationSet"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/gps"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="2. 여행지에서 긴급상황이 발생할 경우 미리 지정한 상대방 연락처로 위치와 내용을 문자로 발송할 수 있습니다." />
+
+        <ImageView
+            android:id="@+id/helpSend"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sosmain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="3. 각 나라의 대사관 정보를 볼 수 있습니다." />
+
+        <ImageView
+            android:id="@+id/helpEmbassy"
+            android:layout_width="150sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/daesagwan"
+             />
+
+    </LinearLayout>
+</ScrollView>

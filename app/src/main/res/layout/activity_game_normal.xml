@@ -1,0 +1,203 @@
+<!--   Card Matching Memory Game --><!--   An app that displays 16 random pairs of cards that the user must click and match within the alloted time --><!--   Authors: Stephen Ciprian and Anirudh Bathini --><!--   Date: 17 April, 20015 -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="fill_horizontal"
+    tools:context="com.example.memorygameapp.MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="점수 :" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <TextView
+                android:id="@+id/timertextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시간 :" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/displayMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="카드를 선택해주세요" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <GridLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnCount="4"
+            android:gravity="center"
+            android:rowCount="4">
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton03"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton04"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton05"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton06"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton07"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton08"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton09"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton10"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton11"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton12"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton13"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton14"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton15"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+            <ImageButton
+                android:id="@+id/ImageButton16"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:src="@drawable/cardback" />
+
+        </GridLayout>
+
+    </TableRow>
+
+</TableLayout>
